@@ -458,6 +458,7 @@
         letter-spacing: 2px;
     }
 
+
     .firstcard {
         padding: 10px;
 
@@ -524,9 +525,10 @@
 
     .nav-bar {
         background-color: #f0756c;
-        font-weight: bold;
-        font-size: 18px;
+        font-weight: 700;
+        font-size: 36px;
         letter-spacing: 2px;
+        height: 59px;
         font-family: "Playfair Display SC";
     }
 
@@ -589,28 +591,44 @@
 
     .clickButton {
         background-color: #f0847d;
-        width: 180px;
+        width: 160px;
         padding: 10px;
         color: ffffff;
+        height: 60px;
+        font-size: 18px;
     }
 
-    .para {
+    .Para {
         letter-spacing: 1px;
         font-family: "Roboto";
-        font-weight: 0px;
-        font-size: 10px;
+        font-weight: 300;
+        font-size: 18px;
     }
 
     .Heading {
         letter-spacing: 3px;
         font-family: "Roboto";
-        font-size: 30px;
+        font-size: 50px;
 
+    }
+
+    .secondcard {
+        height: 100%;
     }
 
     .firstcard {
         padding: 20px;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        
     }
-    
+
+    .seconddev {
+        height: 600px;
+    }
+
 
 }
